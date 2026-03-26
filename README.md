@@ -1,31 +1,49 @@
-🚀 Bootstrap Education Web Projesi
+# 🚀 Bootstrap Education Web Projesi
 
-Modern ve şık bir eğitim sitesi arayüzü. Bu proje HTML, CSS ve Bootstrap 5 kullanılarak geliştirilmiştir.
+Modern ve şık bir eğitim sitesi arayüzü. Bu proje **HTML, CSS ve Bootstrap 5** kullanılarak geliştirilmiştir.
 
+---
 
-Projeden canlı bir önizleme görüntüsü.
+## 📸 Proje Önizleme
+![Proje Önizleme](images/bsedu.gif)  
+*Projeden canlı bir önizleme.*
 
-🛠️ Kullanılan Teknolojiler
-🌐 HTML5
-🎨 CSS3
-⚡ Bootstrap 5
-✨ Özellikler
-📱 Tam responsive tasarım
-🎯 Modern ve sade kullanıcı arayüzü
-⚙️ Bootstrap bileşenleri ile kolay yapılandırma
-🚀 Performans odaklı ve hafif tasarım
-📂 Proje Yapısı
+---
+
+## 🛠️ Kullanılan Teknolojiler
+| Teknoloji | Açıklama |
+|-----------|----------|
+| 🌐 HTML5 | Sayfa yapısı ve içerik |
+| 🎨 CSS3 | Stil ve tasarım |
+| ⚡ Bootstrap 5 | Responsive tasarım ve bileşenler |
+
+---
+
+## ✨ Özellikler
+- 📱 Tam **responsive** tasarım  
+- 🎯 Modern ve sade kullanıcı arayüzü  
+- ⚙️ Bootstrap bileşenleri ile kolay yapılandırma  
+- 🚀 Performans odaklı ve hafif tasarım  
+
+---
+
+## 📂 Proje Yapısı
+
 education-site/
 ├── index.html
 ├── css/
-│   └── style.css
+│ └── style.css
 ├── images/
-│   └── bsedu.gif
+│ └── bsedu.gif
 └── README.md
-⚙️ Kurulum
 
+
+---
+
+## ⚙️ Kurulum
 Projeyi çalıştırmak için:
 
+```bash
 git clone https://github.com/kullaniciadi/repo-adi.git
 cd repo-adi
 
