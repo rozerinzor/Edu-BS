@@ -2,8 +2,9 @@
 
 Modern ve şık bir eğitim sitesi arayüzü. Bu proje HTML, CSS ve Bootstrap 5 kullanılarak geliştirilmiştir.
 
-📸 Proje Önizleme
-![Proje Önizleme](images/bsedu.gif)
+
+Projeden canlı bir önizleme görüntüsü.
+
 🛠️ Kullanılan Teknolojiler
 🌐 HTML5
 🎨 CSS3
@@ -30,6 +31,8 @@ cd repo-adi
 
 Sonrasında index.html dosyasını tarayıcınızda açmanız yeterlidir.
 
+⚠️ GIF’in görünmesi için images/bsedu.gif dosyasının repo’da yüklü ve aynı dizinde olduğundan emin olun.
+
 🎯 Proje Amacı
 
 Bu proje:
@@ -40,9 +43,6 @@ Modern ve duyarlı web tasarım pratiği yapmak
 
 amacıyla geliştirilmiştir.
 
-📌 Notlar
-Proje tamamen HTML + CSS + Bootstrap 5 ile geliştirilmiştir.
-Herhangi bir JavaScript veya ek derleyici gerektirmez.
 👨‍💻 Geliştirici
 
 Rozerin Zor
