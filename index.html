@@ -1,0 +1,597 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top py-3">
+      <div class="container">
+        <a class="navbar-brand" href="#">Udemig</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#edutype"
+                >Neler Öğreneceksiniz</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sss">Sorular </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#edu">Eğitimler</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--Açıklama-->
+    <section
+      class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start"
+      id="showcase"
+    >
+      <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-between">
+          <div>
+            <h1>
+              Ben <span class="text-warning">React Geliştiricisiyim</span>
+            </h1>
+            <p class="lead my-3">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reprehenderit molestias tenetur laudantium voluptatem, dicta cum
+              aut eum veritatis, similique suscipit doloribus dolorem laboriosam
+              unde rerum ad aperiam repellat nostrum eos.
+            </p>
+            <button
+              class="btn btn-primary btn-lg mb-3"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
+              Kayıt Ol
+            </button>
+          </div>
+          <img
+            src="images/ios.jpeg"
+            alt=""
+            class="img-fluid w-50 d-none d-sm-block mb-1 rounded-4"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-dark text-light p-5">
+      <div class="container">
+        <div>
+          <h3 class="mb-3">Kayıt ol</h3>
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Mail" />
+            <button class="btn btn-primary btn-lg">Gönder</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Ogrenme-->
+
+    <section class="p-3" id="edu">
+      <div class="container">
+        <div class="row text-center g-4">
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-laptop"></i>
+                </div>
+                <h3 class="card-title mb-3">Online</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+                  quis quibusdam doloribus nulla ad? Alias impedit expedita,
+                  quas perferendis blanditiis, suscipit eos, nesciunt nobis
+                  deserunt eveniet vel atque itaque cum!
+                </p>
+                <a href="" class="btn btn-light">Daha fazla...</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-secondary text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-person-arms-up"></i>
+                </div>
+                <h3 class="card-title mb-3">Hibrit</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+                  quis quibusdam doloribus nulla ad? Alias impedit expedita,
+                  quas perferendis blanditiis, suscipit eos, nesciunt nobis
+                  deserunt eveniet vel atque itaque cum!
+                </p>
+                <a href="" class="btn btn-light">Daha fazla...</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-people"></i>
+                </div>
+                <h3 class="card-title mb-3">Yüz yüze</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+                  quis quibusdam doloribus nulla ad? Alias impedit expedita,
+                  quas perferendis blanditiis, suscipit eos, nesciunt nobis
+                  deserunt eveniet vel atque itaque cum!
+                </p>
+                <a href="" class="btn btn-light">Daha fazla...</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--İçerik-->
+    <section class="p-5" id="edutype">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md">
+            <img src="images/based.png" alt="" />
+          </div>
+          <div class="col-md p-5">
+            <h2>Temelleri Öğren</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt,
+              quis ut error aliquam aperiam repellat, optio necessitatibus sint
+              amet ab, voluptatum molestiae reiciendis minus tenetur. Nobis quis
+              dolor nostrum deleniti.
+            </p>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Laudantium ea incidunt amet reprehenderit. Laborum hic blanditiis
+              ipsam, fuga aliquid et deleniti perferendis vel? Provident ducimus
+              culpa placeat fuga quia blanditiis?
+
+              <a href="" class="btn btn-light mt-3">
+                <i class="bi bi-chevron-right"></i>Daha Fazla..
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="p-5 bg-dark text-light">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md p-5">
+            <h2>Temelleri Öğren</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt,
+              quis ut error aliquam aperiam repellat, optio necessitatibus sint
+              amet ab, voluptatum molestiae reiciendis minus tenetur. Nobis quis
+              dolor nostrum deleniti.
+            </p>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Laudantium ea incidunt amet reprehenderit. Laborum hic blanditiis
+              ipsam, fuga aliquid et deleniti perferendis vel? Provident ducimus
+              culpa placeat fuga quia blanditiis?
+            </p>
+
+            <a href="" class="btn btn-light mt-3">
+              <i class="bi bi-chevron-right"></i>Daha Fazla..
+            </a>
+          </div>
+          <div class="col-md">
+            <img src="images/react.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Teacher CARD-->
+
+    <section class="p-5 bg-primary">
+      <div class="container">
+        <h2 class="text-white text-center">Eğitmenlerimia</h2>
+        <p class="lead text-center text-white">
+          Eğitmenlerimiz On yıldan fazladır Bu Alanda Çalışmaktadır
+        </p>
+        <div class="row g-4">
+          <div class="col-md col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img
+                  src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAPEBUQEBAQFRUQEA8VEBAVDxAVEBAPFREWGBUXFRcYHSggGBolGxUVITEhJSkrLi4uFx8zODMsNygtLisBCgoKDg0OGhAQGiseHyYtLS0tLS0rLS0tLS0tLS0tLystLS0tKystKy0tLSstKy0tLS0tNy0tLTUtLS0tLS0tL//AABEIALcBEwMBIgACEQEDEQH/xAAcAAEAAQUBAQAAAAAAAAAAAAAAAQIDBAUHBgj/xAA9EAACAQIDBQUGBAQFBQAAAAAAAQIDEQQSIQUxQVFxBiJhgZEHEzJCobFScsHRFCOC4WKSorLwJENTY/H/xAAYAQEBAQEBAAAAAAAAAAAAAAAAAQMCBP/EACARAQEAAgMAAwEBAQAAAAAAAAABAhEDITESQVEiMgT/2gAMAwEAAhEDEQA/AO4gAAAAAAAAAAAAAAAAAAAAAIbIUkBUCj3kd110uioCQAAAAAAAAAAAAAAAAABAAAkAAAAAAAAAAAAAAAAEEgDTbY25GjeMLSmlryj18fAo7UbZWGp2TtKSev4Y8+vI8BitoRce9JK++73vl4sy5OTXUbcfHvusHtH2prVJNZ27X4u3kloedfbPEUbqjVknJNON24vr/YvbepR93mUtZuySu3J8Fpv6f/TUQ7PzptKpC0prVtSco8Vla3Mxx/a3yn1HptgdoK1VP31OL/xRck16/uen2X2tq0JW9572nxhKV5RXg3qvM8RVh/C07NOppfvRV/W12aCpjlKd4Xpyvuu7X5a7uj0HfsLryvprZu0KeIpqpTd096+aL5NcGZZxPsF2nnTqqEtJPRx+WrH9Hx+10dnw9aNSKnHdJXRvhn8vfXm5MPjevF0EA0ZpAAAAACCQBAAAAAACQAAAAAAAAAAAAAAAAAKKk1FOT0UU23ySRWef7cbS/hsHOfF6LxdrpebSXmS3U2uM3dOd9strOdSdWbsou0V/ivuXit3qaLs92ZxOPmqs4yjT+W7aVv1N5sLZdPaGLyyealhlZ6/HV0cm/P8AU6ZCEYJRikklZJLRI80xt7ezcnTQbP7J0adnJKUo7m4q0eiMvaWwqdVaxXobuEtA3odfCac/O7eFxvZCUlaFSUfDRx9HoeI252VqUn/Np3j/AOWCfd6x4fY7TVZr8Qk3Zo4uOvGky3643srCyzqm33oO9Kqt91r/AH8bPjbN2nsfjXKmoz0k01KP4akfiS66M8v2g7NQjH+JorLKLvOK0U1ZvTlK60MXC9pI0KmFk3pUxNKEnay7ycbtcNJJ2OsertnlJlNR1cAHpeRBIAAgkAQSAAIJAEEgAAQAJAAAAAAAAAAAAAAAAOV+3nHOOHo0Y3vVk9ztfLOnZeB1Q4v7fpy95h0t6pycfzZn+yM+TxrxTeSv2M0qkZ141E1NVZZ07Xi1FaX4q2Wx0zGVIU9ZyjFeLseT9nezo0slWLdq2Hp1LPhmhDT6GR2sxzpyTjhXVc3ZycHKMeWr0XqjPfTb4/09FRx1F/DUg+kkXfeI5dhan8TUyywM6eWOZySnGzzZbLLJ3e56Jr0Z0HZtBxp5XfurS7u/M5+V806+OOtyq8bj6VNXqTjFLm0jSy7SYOTtGo5c3GEml5mu2psueIk5+7hJ99qU7NJx+GNnuu+Nn5bzRUaW01P4adOKnaNODVlC71lq03a2itvfLXnds27kxnToW2ZwqbPqVKcsyUHJNeG9elzj+0cDPHUqcqVS2Iw9rQv3MSotd18qito+O5nX9lQnPDzp1Ld6nLx4anGYYuFHH0VBXhVqVYzj+Wzuuh3ll5Y4xw9lfROCq56UJ/jpwk1yvFMvGu2I5KkoSd8qWWXFxvp9jZHoxu48eU1UEgFRAJAAAAAAAIJAEEkACQAAAAAAAAAAAAAAADj3t1ot1KL5U5/RtnYTnXtawDqxg0v+3UjfxdkvuY811jtv/wA/+1/2e128JRzPvQp5Xp8ru4v9PI9JUwqno210djl1PFVMLVwbhOUF/wBJGqk+7Kk6lJTjJPRq0pdDp2LxHu7t8DPG7x3W+U/rpahsqnB5rzbW68tF5KxkJWv0MbDylU70rq/wq/3KMRtCVNyzU7LhK97lhq269W8Il3ou1sz0fiXlgqMe8qcE+dkaKlj6laeWNPLHMm5Nq1l+psp15RdlZ+F9UZytLNVmt5KVWcdGqdS3XK2tDhuBwyntSlSTzKgmpSaSbqyi3O9uLbida7RY73WzsXO7Tjg8S072ak6bUbPg7tHI/ZdR/mqo9e8rt728yb16nd/ztnMv6sfQmyfgh+WS9GbE1uwZZqSl+a3+ZmyPRj48eftACTpygEgCASABBIAgkACCQAAAAAAAAAAAAAAAAABoO1WFVSMV4r7m/NZtld2/JJ/cz5ZvGxpxXWUrh/tNbhHLF2tTmlberRptHQ+xXaWG1MHCtde9ilDEw4xrJau34ZfEutuDPB+1mhxt+KP+hL9Dy/soxk6W06UYyaVZVoTjd5ZJUpTWZcbOBhxd4V6eTrKO57R2XVnlnSxNanld504uGSpHk7xun0aJeHpyi7YnERvbRyi7d533p8NDaUJqS8VvRYr7PjPVpHWnWGc+3mdo4Cn3o0cRiHOSkoy947RbtZ2Vr219TL2Lsz+Gp96rVqzktalSblLdbTguiNnDAQg9LLmzX7a2pGjFxhZztu3qHJvx8DO9d1pln8rrFz/2wdpYxpLZ1KV51HCeKs/gpLvQpvxk8srckuZiezzDONFSWjblrytbXoc3qzlVxNSU25SlWqOTbbcpOb3s692To92FCK+SDcvGVS1vo2+iLzdSRjw925V2LYsUsPTsrLKmuj3GaW8PTyQjFfLFL0RcPXjNR48ru7SCAVAkgkAQAAJBAEkAASCABIBAEkEkACSABJAJAAgASAQBJrtsxbpytvy6ddTYmLj13f6Zetro5zm8a6w9cj9puGzYeU1Z2Tl9f2bPBeybZ06204VY3yYbNKcraXnCUIx6vM3/AEs6htHYeIxcXS0jTlGcZTlfMotO2RcXe283XZvs5RwFFUqMbJO8pfNOXGUnxeh4+K3V69e7kk678bSpBrWOjNdtDalWHyp9HY26ZhY7DqSO8pddOMbN9vN4rb1WSdll+rRgYSi5pt8b35ts2uJ2at5OEppaWPPZbe3o3JOnCtoYJ4fH1Kc1q6snDxjKTaf3Xkdx9m+zXKedrSnCmvOKb/3SbJ252PwuPUZSvCpB3p1YpNp8mvmi+K+x7XszgKeHoRpwd2vjl80pc2eiY3PKb+nmuUwwuvttwAet4wAAAAAAAAAAAAAAAAgkgCSAAJIAAAEgAQABJi4jFKOi1f0NfOtKT1b6cAbbWeIhHfJdDAxeJz6Ld/zeYuQZQKFO2j4fYrzFMqbKGrf8ucXD8aY8vWquNFqdO5dhK6KoTSZncK0nJj+tfiMLdGNPC5Ejb1Gnx+hZnG/kcXjv40nJP1g0lpbzRm4OrKOqZadKxQq8d0e8+UdfV7kdY8eTnLlw03sNpaarUycLic61sn13nnoU5P4n/St3m+JfTaN508tvb0QNLh8ZKL1d1yNvSqqSuiisAAAAAAAAAAAAAAAAgkgACQAIJAAx8TOysXpSsrmtr1boJVpxuMtimMt/g2VSeq8SocSkrKGAIsLhMCl01y/ch0/GX+ZlwkosOi+cvUp9x/il62+xkyZTIlIxXhYcVfreX3uXYxRU0SRVNhlJKZysgbMvIv4Ws4uxjuWWGZ+Rau0r+gR6SnPMrlZgbMr3vHkk/VL90Z4dAAAAAAAAAAAAEAAABIIAAkEAY2MqaZfXoYEkHXbqPlr5WKnrrwfErmrD0fWxLl3o+f2IxG7yLdGV7P8AMEZdi3MyKcNL+BaqxQdLIuRKDRKiETcXKSbBU3FyBYiyDZAyhkEmNXd2o+JelIxqTvO4SqsfNfy4L5pLTwSuyrES70Y+NzBlUz4tLhTpfWb/AGj9S7Qqe8qya3RbivLR/X7FRsNj1P5j/M4/6f7G/PMbIl3r86r9M9j04WAACgAAAAAAAAAAAAAAABbrStFvwLhj46VodQNLGd5Pr+hVh5204Ph4oxqL1f5jIto/B6HTgxk0mlz0fmUYNaW5SZjY996D6pv6/oZOEfHnqQbSl8JZnqVxfdLYVSxlLcpjMFV5ScpRmJzjSbTkJyhSFyaXamSLcmTUmWZS4jRtRWkW6TViirMx8Xifd05T/BCUvRXINZgcY74nEf8AslGHi49yPq/ubfZ9P3dK74R19NTz+xaDdKjS4ybq1PFJ91Pq3f8ApPT4mPdUF8zS8uJcaZTSvZscqinvtFvq5XZ6dHm6crSkuKStpyPRUZXii0isAEUAAAAAAAAIJAAAAAAAMLaUu76gBK8/hpfF+YzyQWIwMerxb4x1XkTs2ad0vLTgwCfa/TaP4V1YxWkfJAHSMGDLyJBBDRFyQAzFaQBRYxDLcvhfRgEKwm7o1naCf/TTX4lGPlKST+4Bz9LPWVsClvnytCP5Yaf7sxspt51ZK97K+5MAs8PayXG2bnpd8WzcbNneC8CAVIywAR0AAAAAAAA//9k="
+                  alt=""
+                  class="rounded-circle img-fluid mb-3"
+                />
+                <h3 class="card-title">Funda A.</h3>
+                <p class="card-title">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Obcaecati nemo, hic rerum fugit velit labore ad nam
+                  exercitationem aliquam porro? Velit facilis porro
+                  exercitationem optio cum repudiandae voluptates autem
+                  reprehenderit.
+                </p>
+                <i class="bi bi-twitter-x"></i>
+                <i class="bi bi-facebook text-primary"></i>
+                <i class="bi bi-instagram text-warning"></i>
+                <i class="bi bi-linkedin text-primary"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-md col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img
+                  src="data:image/jpeg;base64,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"
+                  alt=""
+                  class="rounded-circle img-fluid mb-3"
+                />
+                <h3 class="card-title">Kenan S.</h3>
+                <p class="card-title">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Obcaecati nemo, hic rerum fugit velit labore ad nam
+                  exercitationem aliquam porro? Velit facilis porro
+                  exercitationem optio cum repudiandae voluptates autem
+                  reprehenderit.
+                </p>
+                <i class="bi bi-twitter-x"></i>
+                <i class="bi bi-facebook text-primary"></i>
+                <i class="bi bi-instagram text-warning"></i>
+                <i class="bi bi-linkedin text-primary"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-md col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img
+                  src="data:image/jpeg;base64,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"
+                  alt=""
+                  class="rounded-circle img-fluid mb-3"
+                />
+                <h3 class="card-title">Deniz Ç.</h3>
+                <p class="card-title">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Obcaecati nemo, hic rerum fugit velit labore ad nam
+                  exercitationem aliquam porro? Velit facilis porro
+                  exercitationem optio cum repudiandae voluptates autem
+                  reprehenderit.
+                </p>
+                <i class="bi bi-twitter-x"></i>
+                <i class="bi bi-facebook text-primary"></i>
+                <i class="bi bi-instagram text-warning"></i>
+                <i class="bi bi-linkedin text-primary"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-md col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img
+                  src="data:image/jpeg;base64,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"
+                  alt=""
+                  class="rounded-circle img-fluid mb-3"
+                />
+                <h3 class="card-title">Mahmut B.</h3>
+                <p class="card-title">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Obcaecati nemo, hic rerum fugit velit labore ad nam
+                  exercitationem aliquam porro? Velit facilis porro
+                  exercitationem optio cum repudiandae voluptates autem
+                  reprehenderit.
+                </p>
+                <i class="bi bi-twitter-x"></i>
+                <i class="bi bi-facebook text-primary"></i>
+                <i class="bi bi-instagram text-warning"></i>
+                <i class="bi bi-linkedin text-primary"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--    sss-->
+    <section class="p-5" id="sss">
+      <div class="container">
+        <h2 class="text-center mb-4">Sık Sorularn Sorular</h2>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Öğrenim Tipleri
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>This is the first item’s accordion body.</strong> It is
+                shown by default, until the collapse plugin adds the appropriate
+                classes that we use to style each element. These classes control
+                the overall appearance, as well as the showing and hiding via
+                CSS transitions. You can modify any of this with custom CSS or
+                overriding our default variables. It’s also worth noting that
+                just about any HTML can go within the
+                <code>.accordion-body</code>, though the transition does limit
+                overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                Eğitmenlerimiz
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>This is the second item’s accordion body.</strong> It is
+                hidden by default, until the collapse plugin adds the
+                appropriate classes that we use to style each element. These
+                classes control the overall appearance, as well as the showing
+                and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It’s also worth
+                noting that just about any HTML can go within the
+                <code>.accordion-body</code>, though the transition does limit
+                overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                Kaynaklarımız
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>This is the third item’s accordion body.</strong> It is
+                hidden by default, until the collapse plugin adds the
+                appropriate classes that we use to style each element. These
+                classes control the overall appearance, as well as the showing
+                and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It’s also worth
+                noting that just about any HTML can go within the
+                <code>.accordion-body</code>, though the transition does limit
+                overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFour"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                Lokasyonlarımız
+              </button>
+            </h2>
+            <div
+              id="collapseFour"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>This is the third item’s accordion body.</strong> It is
+                hidden by default, until the collapse plugin adds the
+                appropriate classes that we use to style each element. These
+                classes control the overall appearance, as well as the showing
+                and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It’s also worth
+                noting that just about any HTML can go within the
+                <code>.accordion-body</code>, though the transition does limit
+                overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFive"
+                aria-expanded="false"
+                aria-controls="collapseFive"
+              >
+                Eğitim İçeriklerimiz
+              </button>
+            </h2>
+            <div
+              id="collapseFive"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>This is the third item’s accordion body.</strong> It is
+                hidden by default, until the collapse plugin adds the
+                appropriate classes that we use to style each element. These
+                classes control the overall appearance, as well as the showing
+                and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It’s also worth
+                noting that just about any HTML can go within the
+                <code>.accordion-body</code>, though the transition does limit
+                overflow.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--İletişim-->
+
+    <section class="p-5">
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-md">
+            <h2 class="text-center mb-4">İletişim Bilgileri</h2>
+            <ul class="list-group list-group-flush lead gap-4">
+              <li class="list-group-item">
+                <span class="fw-bold">Ana Konum:</span> Stockholm
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">Kayıt Numarası:</span> 555 555 55 55
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">Öğrenci İşleri:</span> S777 777 77 77
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">Kayıt Maili:</span> stockholm@udemig.com
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">Harici Hizmet:</span> ogrenci@udemig.com
+              </li>
+            </ul>
+          </div>
+          <div class="col-md">
+            <iframe
+              class="w-100"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29011.059828683537!2d18.07050323256177!3d59.32897458417975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f763119640bcb%3A0xa80d27d3679d7766!2zU3Rva2hvbG0sIMSwc3Zlw6c!5e0!3m2!1str!2str!4v1774530264852!5m2!1str!2str"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="bg-dark text-white text-center position-relative p-5">
+      <div class="container">
+        <div class="lead">
+          Tümm Hakları &copy; Saklıdır 2026 Rozerin Z.
+          <a href="#showcase" class="position-absolute bottom-0 end-0 p-5">
+            <i class="bi bi-arrow-up-circle"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Modal-->
+
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Bilgiler</h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="recipient-name" class="col-form-label"
+                  >Ad Soyad:</label
+                >
+                <input type="text" class="form-control" id="recipient-name" />
+              </div>
+              <div class="mb-3">
+                <label for="message-text" class="col-form-label">Mail:</label>
+                <textarea class="form-control" id="message-text"></textarea>
+              </div>
+              <div class="mb-3">
+                <label for="message-tel" class="col-form-label">Tel No:</label>
+                <textarea class="form-control" id="message-tel"></textarea>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Kapat
+            </button>
+            <button type="button" class="btn btn-primary">Gönder</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
