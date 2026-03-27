@@ -49,7 +49,6 @@ cd repo-adi
 
 Sonrasında index.html dosyasını tarayıcınızda açmanız yeterlidir.
 
-⚠️ GIF’in görünmesi için images/bsedu.gif dosyasının repo’da yüklü ve aynı dizinde olduğundan emin olun.
 
 🎯 Proje Amacı
 
